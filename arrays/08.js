@@ -9,4 +9,11 @@
 export function addNewPrice(prices, newPrice) {
   // TODO: Use the unshift() method to add the new price to the beginning of the array
   // TODO: Return the updated array
+  prices.unshift(newPrice)
+  return prices
 }
+
+/*
+Similar to 04 which was shift, and 03 which was push
+Change params: prices.unshift(newPrice)
+*/
