@@ -15,6 +15,6 @@ export function removeFirstRating(ratings) {
 /*
 .shift() removes and returns the first item of the array called ratings: 
 ratings.shift()
-We don't need to specify the position, as "shift" simply removes the last value from the list
+We don't need to specify the position, as "shift" simply removes the first value from the list
 Forgot to retun again- it's in the To-Do... 
 */
