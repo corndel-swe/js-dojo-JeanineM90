@@ -8,4 +8,7 @@
  */
 export function itemsPerPerson(totalItems, people) {
   // TODO: return the number of items per person by dividing totalItems by people
+  // As before, but using divide "/"
+  // See operators-and-expressions tech doc
+  return totalItems / people
 }
