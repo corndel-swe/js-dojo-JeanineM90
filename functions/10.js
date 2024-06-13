@@ -7,5 +7,10 @@
  * Example: canGoPicnic(true, true) should return true.
  */
 export function canGoPicnic(isSunny, isWeekend) {
-  // TODO: return true if both isSunny and isWeekend are true
+  /* TODO: return true if both isSunny and isWeekend are true
+  Logical Operators && (and)
+  a && b (true if a and b are both true, otherwise false)
+  So isSunny and isWeekend both need to be true 
+  */
+  return isSunny && isWeekend
 }
