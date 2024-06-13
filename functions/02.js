@@ -8,4 +8,10 @@
  */
 export function remainingSavings(savings, cost) {
   // TODO: return the remaining savings after subtracting cost from savings
+  return savings - cost
 }
+
+/*similar to 01, this is just going to be savings - cost 
+in the example: 100 is the savings - 40 which is the cost = 60 is the result
+try to return this in one line 
+*/
