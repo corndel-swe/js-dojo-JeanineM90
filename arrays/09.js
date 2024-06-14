@@ -9,3 +9,5 @@
 export function findYoungestAge(ages) {
   // TODO: Return the smallest age
 }
+
+// filter and map? need to watch vid on tech doc 
